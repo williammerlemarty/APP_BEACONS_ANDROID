@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inscription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_activity"
+    tools:context="com.example.williammerle.workshop2.InscriptionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscription"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="74dp"
+        android:id="@+id/inscription"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sinscrire" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/erroremail"
+        android:textColor="#FF0000"
+        android:layout_below="@+id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/password" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/errorpseudo"
+        android:layout_below="@+id/pseudo"
+        android:layout_alignStart="@+id/email"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="13dp"
+        android:id="@+id/errorpassword"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Mot de passe"
+        android:ems="10"
+        android:layout_marginTop="33dp"
+        android:id="@+id/password"
+        android:background="#000000"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/erroremail"
+        android:layout_alignStart="@+id/email"
+        android:textColor="#ffff25" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="29dp"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:background="#000000"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/errorpseudo"
+        android:layout_alignStart="@+id/pseudo"
+        android:textColor="#ffff25" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Pseudo"
+        android:ems="10"
+        android:layout_marginTop="35dp"
+        android:id="@+id/pseudo"
+        android:background="#000000"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textColor="#ffff25" />
+
+</RelativeLayout>

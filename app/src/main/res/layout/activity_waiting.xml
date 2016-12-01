@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_waiting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_activity"
+    tools:context="com.example.williammerle.workshop2.WaitingActivity">
+
+    <TextView
+        android:text="Nom de la partie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/partyname"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Joueur 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player2"
+        android:layout_alignStart="@+id/player2"
+        android:layout_marginTop="46dp"
+        android:id="@+id/player3"
+        android:background="#FF0000"
+        android:textStyle="normal|bold"
+        android:textColor="#ffff25"
+        android:padding="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/player1"
+        android:layout_below="@+id/partyname"
+        android:layout_centerHorizontal="true"
+        android:background="#27ae60"
+        android:text="Joueur 1"
+        android:textColor="#ffff25"
+        android:textStyle="normal|bold"
+        android:padding="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:text="Joueur 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/player2"
+        android:background="#FF0000"
+        android:layout_below="@+id/player1"
+        android:layout_alignStart="@+id/player1"
+        android:textColor="#ffff25"
+        android:textStyle="normal|bold"
+        android:padding="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="71dp"
+        android:id="@+id/play"
+        android:layout_below="@+id/player3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/go" />
+</RelativeLayout>
