@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class MjMathsActivity extends AppCompatActivity {
     public int op3;
-    public static final int SECONDES = 10000;//+000
+    public static final int SECONDES = 60000;//+000
     private CountDownTimer ctnd = null;
 
     @Override

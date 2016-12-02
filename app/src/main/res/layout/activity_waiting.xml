@@ -12,7 +12,7 @@
     tools:context="com.example.williammerle.workshop2.WaitingActivity">
 
     <TextView
-        android:text="Nom de la partie"
+        android:text="Ma partie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -29,7 +29,7 @@
         android:layout_alignStart="@+id/player2"
         android:layout_marginTop="46dp"
         android:id="@+id/player3"
-        android:background="#FF0000"
+        android:background="#27ae60"
         android:textStyle="normal|bold"
         android:textColor="#ffff25"
         android:padding="@dimen/activity_horizontal_margin" />
@@ -47,19 +47,6 @@
         android:textStyle="normal|bold"
         android:padding="@dimen/activity_horizontal_margin" />
 
-    <TextView
-        android:text="Joueur 2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:id="@+id/player2"
-        android:background="#FF0000"
-        android:layout_below="@+id/player1"
-        android:layout_alignStart="@+id/player1"
-        android:textColor="#ffff25"
-        android:textStyle="normal|bold"
-        android:padding="@dimen/activity_horizontal_margin" />
-
     <Button
         android:layout_width="125dp"
         android:layout_height="50dp"
@@ -68,4 +55,17 @@
         android:layout_below="@+id/player3"
         android:layout_centerHorizontal="true"
         android:background="@drawable/go" />
+
+    <TextView
+        android:text="Joueur 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/player2"
+        android:background="#27ae60"
+        android:textColor="#ffff25"
+        android:textStyle="normal|bold"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/player1"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

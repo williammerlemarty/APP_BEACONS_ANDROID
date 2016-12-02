@@ -13,8 +13,8 @@ import android.widget.TextView;
 import java.util.Objects;
 
 public class MjLeftRightActivity extends AppCompatActivity {
-    public static final int AR_NUMBER = 10;
-    public static final int SECONDES = 10000;//+000
+    public static final int AR_NUMBER = 20;
+    public static final int SECONDES = 60000;//+000
     private CountDownTimer ctnd = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

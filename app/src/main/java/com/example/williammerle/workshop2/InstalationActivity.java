@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class InstalationActivity extends AppCompatActivity {
-    private static int NUMBER_PLAYERS = 2;
+    private static int NUMBER_PLAYERS = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

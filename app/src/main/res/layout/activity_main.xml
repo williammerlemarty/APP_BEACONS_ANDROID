@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mon Application"
+        android:text="Save the spaceship"
         android:textSize="30sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -37,14 +37,5 @@
         android:layout_below="@+id/connexion"
         android:layout_alignParentStart="true"
         android:layout_marginTop="99dp" />
-
-    <Button
-        android:text="HOME"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/inscription"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:id="@+id/home" />
 
 </RelativeLayout>

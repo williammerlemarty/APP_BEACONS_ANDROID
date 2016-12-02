@@ -12,8 +12,8 @@ import com.appaholics.circularseekbar.CircularSeekBar;// src = https://github.co
 import java.util.Objects;
 
 public class MjWhipActivity extends AppCompatActivity {
-    public static final int CIRCLE_NUMBER = 10;
-    public static final int SECONDES = 10000;//+000
+    public static final int CIRCLE_NUMBER = 30;
+    public static final int SECONDES = 60000;//+000
     private CountDownTimer ctnd = null;
 
     @Override

@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MjPushActivity extends AppCompatActivity {
-    public static final int PUSH_NUMBER = 10;
-    public static final int SECONDES = 10000;//+000
+    public static final int PUSH_NUMBER = 100;
+    public static final int SECONDES = 60000;//+000
     private CountDownTimer ctnd = null;
 
     @Override

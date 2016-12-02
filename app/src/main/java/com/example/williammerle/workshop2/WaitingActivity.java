@@ -8,8 +8,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class WaitingActivity extends AppCompatActivity {
-    private static int NUMBER_PLAYERS = 2;
-    private static int PLAYERS_ACTIF = 2;
+    private static int NUMBER_PLAYERS = 3;
+    private static int PLAYERS_ACTIF = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

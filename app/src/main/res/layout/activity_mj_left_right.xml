@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.williammerle.workshop2.MjLeftRightActivity">
+    tools:context="com.example.williammerle.workshop2.MjLeftRightActivity"
+    android:background="@drawable/background_activity">
 
     <TextView
         android:text="Score : "
@@ -16,15 +17,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView8"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
-    <SeekBar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="194dp"
-        android:id="@+id/seekBar"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
     <TextView
         android:text="Time"
         android:layout_width="wrap_content"
@@ -32,7 +28,9 @@
         android:layout_marginTop="50dp"
         android:id="@+id/time"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="0"
@@ -40,5 +38,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/score"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/textView8" />
+        android:layout_toEndOf="@+id/textView8"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:background="@android:color/background_light"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
