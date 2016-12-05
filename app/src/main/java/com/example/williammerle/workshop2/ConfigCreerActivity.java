@@ -26,7 +26,7 @@ import java.util.Collection;
 public class ConfigCreerActivity extends AppCompatActivity implements BeaconConsumer {
 
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
-    private static int NUMBER_PLAYERS = 2;
+    private static int NUMBER_PLAYERS = 3;
     private Button next;
     private BeaconManager beaconManager;
     private Identifier a1 = null;
@@ -58,7 +58,7 @@ public class ConfigCreerActivity extends AppCompatActivity implements BeaconCons
                 .show();
 
         next = (Button) findViewById(R.id.next);
-        next.setEnabled(false);
+        //next.setEnabled(false);
 
         if(NUMBER_PLAYERS != 3) {
             ImageView imgView = (ImageView) findViewById(R.id.b3);
